@@ -1,0 +1,423 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+html
+{
+	height: 100%;
+}
+
+body
+{
+	background-color: #fff;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #666;
+	min-height: 100%;
+	position: relative;
+	-webkit-text-size-adjust: none;
+}
+body *
+{
+	text-shadow: none;
+}
+
+li {
+    list-style-type: none
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	line-height: 1;
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+}
+h1, h2, h3
+{
+	font-size: 18px;
+}
+h4, h5, h6
+{
+	font-size: 16px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background: #AAC600;
+    float: left;
+    width: 100%
+}
+
+p
+{
+	margin: 0 0 10px 0;
+}
+a, a:link, a:active, a:visited, a:hover
+{
+	color: inherit;
+	text-decoration: underline;
+}
+
+nav:not(.mm-menu)
+{
+	display: none;
+}
+
+.header {
+    background: #ffffff;
+    border-bottom: solid 1px #EEEEEE;
+    color: #AAC600;
+    height: 60px;
+    line-height: 40px;
+    text-align: left;
+    box-sizing: border-box;	
+	width: 100%;
+    padding-top: 5px;
+    -webkit-box-shadow: inset 5px 5px 25px -4px rgba(204,204,204,0.5);
+-moz-box-shadow: inset 5px 5px 25px -4px rgba(204,204,204,0.5);
+box-shadow: inset 5px 5px 25px -4px rgba(204,204,204,0.5);
+}
+
+.header a
+{
+	background: center center no-repeat transparent;
+	background-image: url(../images/menu.png);
+
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+
+#txt-header {
+float: left;
+    font-size: 18px;
+margin: 5px 0 0 50px
+}
+
+.footer
+{
+	text-align: center;
+}
+
+.footer
+{
+	background: #777;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+
+	box-sizing: border-box;	
+	width: 100%;
+	height: 40px;
+	padding: 0 50px;
+}
+
+.content
+{
+	padding: 10px;
+}
+
+.content a {
+color: #A6C410;
+    text-decoration: none;
+}
+
+.content h1 {
+    color: #444444;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.content h2 {
+    color: #444444;
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 5px 0;
+    padding: 0;
+    width: 100%
+}
+
+.content p {
+    color: #666666;
+    font-size: 16px;
+    padding: 0;
+}
+
+nav#menu h2 {
+    font-size: 20px;
+margin:0 0 10px 20px;
+}
+
+nav#menu ul li a span {
+    position: absolute;
+    right: 20px;
+}
+
+.inbox {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    border:none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.inbox thead tr th, .inbox tr td{
+    border-bottom: none;
+}
+
+.inbox thead tr td{
+    text-align: right;
+    padding:5px 5px 5px 0;
+}
+
+.inbox tbody th{
+    border-bottom:1px solid #eeeeee;
+	color: #666666;
+     font-size: 11px;
+    font-weight: normal;
+    padding: 5px 0;
+	text-align: left;
+    vertical-align:top;
+	width: 90%;      
+}
+
+.inbox tbody th span{
+    color: #444444;
+    font-size: 14px;
+    float: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.inbox tbody th a {
+    font-size: 12px
+}
+
+.inbox tbody td{
+ border-bottom:1px solid #eeeeee;
+  vertical-align:top;  
+  text-align: right;
+  padding:5px 5px 5px 0;
+  font-size:10px;
+  font-weight:normal;
+  color:#666666;
+    width: 2%
+    
+ 
+}
+
+.inbox tbody td input[type=checkbox]{
+    float: left;
+    height: 20px;
+    margin: 0 15px 15px 5px;
+    width: 20px;
+}
+
+.inbox tbody td img{
+    margin-bottom: -10px;
+}
+
+.inbox tbody td span{
+    clear: left;
+    display: inline-table;
+    text-align: center;
+}
+
+.inbox  tr.selected{ background-color:#EFF5CC; }
+
+.inbox  tr.read{ background-color:#F9F9F9;
+color: #999}
+
+.inbox  tr.read th, .inbox  tr.read th span{ 
+    color: #999;
+    font-weight: normal
+}
+
+.inbox tBody tr:hover td{
+  background: #EFF5CC;  
+}
+
+.inbox tBody tr:hover th{
+  background: #EFF5CC;  
+}
+    
+.inbox tBody .txtDerecha {
+  text-align: right;
+}
+
+#search-bloq {
+    float: left;
+    border: solid 1px #EEEEEE;
+    height: 40px;
+    width: 100%
+}
+
+placeholder {
+    color: #aaaaaa;
+    font-size: 10px;
+}
+
+.searchBox {
+	border: 0px !important;
+	background-color:transparent !important;
+	float: left;
+    color: #aaaaaa;
+	width:90%;
+    padding: 15px 0 0 5px;
+    font-size: 10px;
+}
+
+
+.icon-search {
+    background: url(../images/btnSearch.png) top left no-repeat;
+    float: right;
+    height: 14px;
+    width: 14px;
+    border: 0;
+    margin: 12px 5px 0 0; 
+}
+
+
+/* Estilos para zona de mensaje */
+#action-icons {
+    float: right;
+    margin: 5px 0 0 0
+}
+
+#action-icons a{
+    background: none;
+    float: left;
+    position: relative !important;
+}
+
+ul#list-attachments {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul#list-attachments li{
+    background: url(../images/icono-adjunto.png) top left no-repeat;
+    float: left;
+    height: 25px;
+    margin: 0 20px 0 0;
+    padding: 0 0 10px 35px;
+}
+
+ul#list-attachments li a{
+    display: block;
+    height: 25px;
+    font-size: 14px;
+    width: 100%;
+}
+
+ul#list-attachments li a span{
+    color: #666666;
+    display: block;
+    clear: left;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+#bloq-text-editor {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+     color: #666666;
+    border: solid 1px #EEEEEE;
+    margin: 10px 0;
+    min-height: 140px;
+    width: 100%;
+    float: left
+}
+
+
+/**** Estilos modal box ****/
+
+
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #888888;
+		background: rgba(0,0,0,.4);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px;
+        left: 50%;
+        margin-left: -150px;
+		width: 300px;
+		background: transparent;
+		position: absolute;
+		z-index: 101;
+		padding: 40px 0;
+        color: #ffffff;
+		/*-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);*/
+		}
+		
+	.reveal-modal.small 		{ width: 320px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 320px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 320px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 320px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 30px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 0;
+		color: #FFF;
+		/*text-shadow: 0 -1px 1px rbga(0,0,0,.6);*/
+		font-weight: bold;
+		cursor: pointer;
+		}
+
+.btn-confirm {
+    background: #A6C410;
+    border: solid 1px #9BB700;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 20px 0;
+    text-decoration: none;
+    width: 100%
+}
+
+.btn-cancel {
+    background: #AAAAAA;
+    border: solid 1px #A0A0A0;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 20px 0;
+    text-decoration: none;
+    width: 100%
+}
