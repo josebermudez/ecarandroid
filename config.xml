@@ -12,13 +12,12 @@
     <author href="https://build.phonegap.com" email="gustavo.zapata@cincogiros.com">Gustavo Zapata Angel
     </author>
 <preference name="phonegap-version" value="3.6.3" />
-<icon src="icon.png" />
+<gap:platform name="android" />
+<icon src="ic_launcher.png" />
 <icon src="res/icon/android/drawable-hdpi/ic_launcher.png"   gap:platform="android"    gap:density="ldpi" />
 <icon src="res/icon/android/drawable-mdpi/ic_launcher.png"   gap:platform="android"    gap:density="mdpi" />
 <icon src="res/icon/android/drawable-hdpi/ic_launcher.png"   gap:platform="android"    gap:density="hdpi" />
 <icon src="res/icon/android/drawable-xhdpi/ic_launcher.png"  gap:platform="android"    gap:density="xhdpi" />
+
 </widget>
-
-<!-- Define app icon para cada plataforma. -->
-
-<icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        
+      
